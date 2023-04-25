@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Concert+One&display=swap');
+/* html selector */
+body {
+    background-color: rgb(255, 251, 247);
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(158, 203, 182);
+    border-radius: 5px;
+    font-family: 'Concert One', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    box-shadow: 2px 2px 5px rgb(163, 152, 152);
+}
+
+/* header, main, footer {
+    max-width: 500px;
+} */
+
+footer {
+    background-color: rgb(158, 203, 182);
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgb(163, 152, 152);
+}
+
+h1 {
+    color: rgb(177, 143, 98);
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    background-color: rgb(158, 203, 182);
+    border-radius: 5px;
+    font-family: 'Amatic SC', sans-serif;
+    text-align: left;
+    box-shadow: 2px 2px 5px rgb(163, 152, 152);
+}
+
+a {
+    text-align: left;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 30px;
+}
+
+p {
+    text-align: center;
+}
+/* class selector */
+.card {
+    display: flex;
+    flex-direction: row;
+}
+/* id selector */
+#profile {
+    width: 40%;
+    margin: 5px;
+    box-shadow: 2px 2px 5px rgb(83, 78, 78);
+    border-radius: 10px;
+}
