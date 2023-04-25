@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Concert+One&display=swap');
 /* html selector */
+
 body {
     background-color: rgb(255, 251, 247);
 }
@@ -32,6 +33,9 @@ h1 {
 
 h2 {
     text-align: center;
+    font-family: 'Concert One', sans-serif;
+    font-size: 30px;
+    color: rgb(66, 48, 27);
 }
 
 h3 {
@@ -39,6 +43,7 @@ h3 {
     background-color: rgb(158, 203, 182);
     border-radius: 5px;
     font-family: 'Amatic SC', sans-serif;
+    font-size: 20px;
     text-align: left;
     box-shadow: 2px 2px 5px rgb(163, 152, 152);
 }
@@ -49,7 +54,7 @@ a {
 
 main {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
 }
 
 nav {
@@ -58,16 +63,27 @@ nav {
     list-style: none;
     font-family: 'Amatic SC', sans-serif;
     font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(66, 48, 27);
 }
 
 p {
     text-align: center;
 }
+
 /* class selector */
-.card {
-    display: flex;
-    flex-direction: row;
-}
+/* .card {
+    display: grid;
+    grid-template-rows: 1fr;
+} */
+
 /* id selector */
 #profile {
     width: 40%;
