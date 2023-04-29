@@ -2,7 +2,9 @@
 /* html selector */
 
 a:hover {
-    color: rgb(92, 156, 136);
+    color: rgb(71, 48, 13);
+    background-color: rgb(181, 146, 91);
+    border-radius: 5px;
 }
 
 body {
@@ -10,20 +12,13 @@ body {
 }
 
 header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgb(158, 203, 182);
     border-radius: 5px;
-    font-family: 'Concert One', sans-serif;
-    font-size: 30px;
-    text-align: left;
     box-shadow: 2px 2px 5px rgb(163, 152, 152);
 }
-
-header h1 {
-    text-align: left;
-}
-
 footer {
     background-color: rgb(158, 203, 182);
     border-radius: 5px;
@@ -36,6 +31,7 @@ footer {
 
 h1 {
     color: rgb(171, 131, 78);
+    font-family: 'Concert One', sans-serif;
 }
 
 h2 {
@@ -62,20 +58,21 @@ a {
 
 }
 
-main {
+/* main {
     display: grid;
     grid-template-rows: 1fr;
-}
+} */
 
 nav {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     list-style: none;
     font-family: 'Amatic SC', sans-serif;
     font-size: 30px;
     text-align: center;
     text-decoration: none;
-    list-style: none;
 }
 
 nav ul {
@@ -98,8 +95,8 @@ p {
 }
 /* id selector */
 #profile {
-    width: 40%;
-    margin: 5px;
+    width: 15%;
+    margin: 10px;
     box-shadow: 2px 2px 5px rgb(83, 78, 78);
     border-radius: 10px;
 }

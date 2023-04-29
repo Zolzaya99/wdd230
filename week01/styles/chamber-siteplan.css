@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Comme:wght@300&family=Encode+Sans:wght@100;200&display=swap');
+
+
+a:hover {
+    color: rgb(49, 46, 42);
+    background-color: rgb(183, 175, 160);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+body  {
+    background-color: rgb(72, 84, 65);
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: rgb(68, 35, 47);
+    border-radius: 6px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 15px;
+    color: rgb(247, 240, 225);
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Bruno Ace';
+    font-size: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 13px;
+}
+
+p {
+    text-align: center;
+    font-family: 'Encode Sans';
+    font-size: 16px;
+}
+
+#maincontent {
+    background-color: rgb(158, 183, 152);
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#prim {
+    color: #D9D9D9;
+}
+
+#secondary {
+    color: #735A4C;
+}
+
+#firstaccent {
+    color: #40352C;
+}
+
+#secondaccent {
+    color: #8C7765;
+}
+
+#titlefont {
+    font-family: 'Comme';
+    font-size: 20px;
+}
+
+#parafont {
+    font-family: 'Comme';
+    font-size: 20px;
+}
+
+#brunotitle {
+    font-family: 'Bruno Ace';
+    font-size: 18px;
+}
+
+#encodepara {
+    font-family: 'Encode Sans';
+    font-size: 18px;
+}
+
+#extrafont {
+    font-family: 'Comme';
+    font-size: 21px;
+}
+
+#extrapara {
+    font-family: 'Comme';
+    font-size: 18px;
+}
+#wireframe {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
