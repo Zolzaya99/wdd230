@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Comme:wght@300&family=Encode+Sans:wght@100;200&display=swap');
 
+/* html selector */ 
 
 a:hover {
     color: rgb(49, 46, 42);
@@ -52,6 +53,37 @@ p {
     font-size: 16px;
 }
 
+/* class selector */
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+/* id selector */
+
+
+#brunotitle {
+    font-family: 'Bruno Ace';
+    font-size: 18px;
+}
+
+#encodepara {
+    font-family: 'Encode Sans';
+    font-size: 18px;
+}
+
+#extrafont {
+    font-family: 'Comme';
+    font-size: 21px;
+}
+
+#extrapara {
+    font-family: 'Comme';
+    font-size: 18px;
+}
+
 #maincontent {
     background-color: rgb(158, 183, 152);
     width: 70%;
@@ -86,27 +118,14 @@ p {
     font-size: 20px;
 }
 
-#brunotitle {
-    font-family: 'Bruno Ace';
-    font-size: 18px;
-}
-
-#encodepara {
-    font-family: 'Encode Sans';
-    font-size: 18px;
-}
-
-#extrafont {
-    font-family: 'Comme';
-    font-size: 21px;
-}
-
-#extrapara {
-    font-family: 'Comme';
-    font-size: 18px;
-}
 #wireframe {
     width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather {
+    width: 30%;
     align-items: center;
     justify-content: center;
 }
