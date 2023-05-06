@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #ead1d1;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: Acme, Arial, sans-serif;
+}
+
+h1 {
+	font-size: 1.5rem;
+	color: rgb(66, 68, 68);
+}
+
+main {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 1rem;
+	background-color: #ddd;
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px rgb(163, 152, 152);
+
+}
+
+input,
+button {
+	padding: 0.5rem;
+}
+
+button {
+	margin: 0.5rem;
+	color: rgb(66, 68, 68);
+	border-radius: 5px;
+	border: 3px rgb(61, 59, 59);
+
+}
+
+button:hover {
+	color: rgb(219, 213, 205);
+    background-color: rgb(104, 65, 84);
+    border-radius: 5px;
+}
+
+#favchap {
+	border-radius: 5px;
+	border: 0;
+}
+
+label {
+	color: rgb(66, 68, 68);
+
+}
+
+placeholder {
+	color: #bbbaba;
+}
+
+.delete {
+	width: fit-content;
+}
+
+.input {
+	display: flex;
+	gap: 1rem;
+}
+
+.list {
+	padding: 0.5rem;
+}
+
+ul {
+	margin: 1rem;
+	list-style: none;
+}
+
+li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+@media only screen and (min-width: 32.5em) {
+	h1 {
+		font-size: 2rem;
+	}
+
+	main {
+		width: 320px;
+	}
+}
