@@ -8,7 +8,7 @@ a:hover {
 }
 
 body {
-    background-color: rgb(214, 223, 232);
+    background-color: rgb(227, 232, 236);
 }
 
 header {
@@ -24,9 +24,12 @@ footer {
     border-radius: 5px;
     text-align: center;
     box-shadow: 2px 2px 5px rgb(163, 152, 152);
-    font-family: 'Concert One', sans-serif;
-    font-size: 13px;
-    color: rgb(46, 45, 45);
+}
+
+footer p {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
 }
 
 h1 {
@@ -81,16 +84,17 @@ li a {
 
 p {
     text-align: center;
+    color: rgb(46, 45, 45);
+    font-size: 18px;
 }
 
-h4 {
+/* #weatheroverlay {
     position: absolute;
-    top: 100%;
-    left: 35%;
-    color: rgb(71, 70, 70);
-
-    /* transform: translate(-50%, -50%); */
-}
+    top: 50%;
+    left: 50%;
+    color: rgb(46, 45, 45);
+    transform: translate(-50%, -50%);
+} */
 
 /* class selector */
 .card h3{
