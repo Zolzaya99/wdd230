@@ -2,35 +2,35 @@
 /* html selector */
 
 a:hover {
-    color: rgb(71, 48, 13);
-    background-color: rgb(181, 146, 91);
+    background-color: rgb(124, 97, 128);
+    color: rgb(215, 215, 220);
     border-radius: 5px;
 }
 
 body {
-    background-color: rgb(255, 240, 240);
+    background-color: rgb(214, 223, 232);
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(158, 203, 182);
+    background-color: rgb(142, 189, 199);
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgb(163, 152, 152);
 }
 footer {
-    background-color: rgb(158, 203, 182);
+    background-color: rgb(142, 189, 199);
     border-radius: 5px;
     text-align: center;
     box-shadow: 2px 2px 5px rgb(163, 152, 152);
     font-family: 'Concert One', sans-serif;
     font-size: 13px;
-    color: rgb(171, 131, 78);
+    color: rgb(46, 45, 45);
 }
 
 h1 {
-    color: rgb(171, 131, 78);
+    color: rgb(46, 45, 45);
     font-family: 'Concert One', sans-serif;
 }
 
@@ -38,30 +38,24 @@ h2 {
     text-align: center;
     font-family: 'Amatic SC', sans-serif;
     font-size: 33px;
-    color: rgb(66, 48, 27);
+    color: rgb(46, 45, 45);
 }
 
 h3 {
     text-align: center;
-    color: rgb(66, 48, 27);
-    background-color: rgb(158, 203, 182);
+    color: rgb(46, 45, 45);
+    background-color: rgb(142, 189, 199);
     border-radius: 5px;
     font-family: 'Amatic SC', sans-serif;
     font-size: 25px;
-    text-align: left;
     box-shadow: 2px 2px 5px rgb(163, 152, 152);
 }
 
 a {
     text-align: left;
-    color: rgb(66, 48, 27);
+    color: rgb(46, 45, 45);
 
 }
-
-/* main {
-    display: grid;
-    grid-template-rows: 1fr;
-} */
 
 nav {
     display: flex;
@@ -82,21 +76,45 @@ nav ul {
 li a {
     text-decoration: none;
     list-style: none;
-    color: rgb(66, 48, 27);
+    color: rgb(46, 45, 45);
 }
 
 p {
     text-align: center;
 }
 
+h4 {
+    position: absolute;
+    top: 100%;
+    left: 35%;
+    color: rgb(71, 70, 70);
+
+    /* transform: translate(-50%, -50%); */
+}
+
 /* class selector */
 .card h3{
     text-align: center;
 }
+
+.weather {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 /* id selector */
 #profile {
     width: 15%;
     margin: 10px;
     box-shadow: 2px 2px 5px rgb(83, 78, 78);
     border-radius: 10px;
+}
+
+#weatherimg {
+    position: relative;
+    width: 50%;
+    text-align: center;
 }
