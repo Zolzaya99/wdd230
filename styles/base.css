@@ -8,7 +8,7 @@ a:hover {
 }
 
 body {
-    background-color: rgb(227, 232, 236);
+    background-color: #e3e8ec;
 }
 
 header {
@@ -33,7 +33,7 @@ footer p {
 }
 
 h1 {
-    color: rgb(46, 45, 45);
+    color: #2e2d2d;
     font-family: 'Concert One', sans-serif;
 }
 
@@ -60,9 +60,7 @@ a {
 
 }
 
-nav {
-    display: flex;
-    flex-direction: column;
+nav ul {
     align-items: center;
     justify-content: center;
     list-style: none;
@@ -72,14 +70,15 @@ nav {
     text-decoration: none;
 }
 
-nav ul {
-    list-style: none;
+nav li {
+    display: none;
 }
+
 
 li a {
     text-decoration: none;
     list-style: none;
-    color: rgb(46, 45, 45);
+    color: #2e2d2d;
 }
 
 p {
@@ -101,6 +100,25 @@ p {
     text-align: center;
 }
 
+.open li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.open li a {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.open li a:hover {
+    background-color: rgb(124, 97, 128);
+    color: rgb(215, 215, 220);
+    border-radius: 5px;
+}
+
 .weather {
     display: grid;
     grid-template-columns: 1fr;
@@ -110,6 +128,34 @@ p {
 }
 
 /* id selector */
+
+#hamMenu {
+	font-size: 1.5rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: 3px 7px 6px;
+	background-color: #eee;
+	color: #000;
+ 	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+#hamMenu::before {
+	content: "☰";
+}
+
+#hamMenu.open::before {
+	content: "✖️";
+}
+
+#darkMode {
+    position: absolute;
+	top: 1rem;
+	right: 4rem;
+	font-size: 3rem;
+	cursor: pointer;
+}
+
 #profile {
     width: 15%;
     margin: 10px;

@@ -12,19 +12,23 @@
     <meta property="og:image" content="https://unsplash.com/photos/mpLex62zVKQ">
     <meta property="og:url" content="https://zolzaya99.github.io/wdd230/">
     <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <link rel="stylesheet" href="styles/normalize.css">
 </head>
 
 <body>
     <header>
         <img id="profile" src="images/profile.jpg" alt="myphoto">
         <h1>Zolzaya Oyunkhand</h1>
+        <div id="darkMode">
+            🛌
+        </div>
     </header>
     <nav>
-        <ul>
-            <li><a href="index.html">HOME</a></li>
+        <button id="hamMenu"></button>
+        <ul class="nav">
+            <li><a href="index.html" title="HOME">HOME</a></li>
             <li><a href="">CHAMBER</a></li>
             <li><a href="week01/chamber-site-plan.html">SITE PLAN</a></li>
             <li><a href="">FORM</a></li>
@@ -64,6 +68,8 @@
         <p>Last Modified: <span id="lastModified"></span></p>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
+    <script src="scripts/darkMode.js"></script>
 </body>
 
 </html>

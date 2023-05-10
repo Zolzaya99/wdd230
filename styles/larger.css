@@ -1,8 +1,22 @@
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 600px){
     .card {
         grid-template-columns: 2fr 1fr;
     }
-    nav {
-        flex-direction: flex;
+    h3 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 3rem;
+    }
+    #hamMenu {
+        display: none;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-evenly;
     }
 }
