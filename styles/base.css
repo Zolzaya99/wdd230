@@ -61,8 +61,6 @@ a {
 }
 
 nav ul {
-    align-items: center;
-    justify-content: center;
     list-style: none;
     font-family: 'Amatic SC', sans-serif;
     font-size: 30px;
@@ -72,7 +70,7 @@ nav ul {
 
 nav li {
     display: none;
-}
+} 
 
 
 li a {

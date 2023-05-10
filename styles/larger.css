@@ -12,11 +12,12 @@
     #hamMenu {
         display: none;
     }
-    nav ul {
-        display: flex;
-        flex-direction: row;
+    nav li {
+        display: inline-block;
         align-items: center;
         justify-content: center;
         justify-content: space-evenly;
+        color: rgb(44, 44, 45);
+        padding: 10px;
     }
 }
