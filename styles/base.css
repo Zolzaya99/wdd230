@@ -54,10 +54,10 @@ h3 {
     box-shadow: 2px 2px 5px rgb(163, 152, 152);
 }
 
-a {
-    text-align: left;
+h4 {
     color: rgb(46, 45, 45);
-
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 20px;
 }
 
 nav ul {
@@ -84,16 +84,8 @@ p {
     color: rgb(46, 45, 45);
     font-size: 18px;
 }
-
-/* #weatheroverlay {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    color: rgb(46, 45, 45);
-    transform: translate(-50%, -50%);
-} */
-
 /* class selector */
+
 .card h3{
     text-align: center;
 }
