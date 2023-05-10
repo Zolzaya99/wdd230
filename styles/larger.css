@@ -20,4 +20,11 @@
         color: rgb(44, 44, 45);
         padding: 10px;
     }
+    #darkMode {
+    position: absolute;
+	top: 1rem;
+    left: 1rem;
+	font-size: 4rem;
+	cursor: pointer;
+    }
 }

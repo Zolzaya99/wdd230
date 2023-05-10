@@ -149,8 +149,8 @@ p {
 #darkMode {
     position: absolute;
 	top: 1rem;
-	right: 4rem;
-	font-size: 3rem;
+    left: 0;
+	font-size: 2rem;
 	cursor: pointer;
 }
 
