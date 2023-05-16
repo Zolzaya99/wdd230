@@ -18,10 +18,12 @@ footer {
 
 h2 {
     text-align: center;
+    font-size: 1em;
 }
 
 p {
     text-align: center;
+    font-size: 1em;
 }
 
 nav {
@@ -36,8 +38,8 @@ nav a {
     text-align: center;
     font-family: Quicksand, sans-serif;
     text-transform: uppercase;
-    line-height: 5.5;
-    font-size: 15px;
+    line-height: 5;
+    font-size: 1em;
 }
 
 a {
@@ -48,7 +50,11 @@ a {
 
 .event {
     text-align: center;
-    padding: 1em;
+    padding: 30px;
+    background-color: rgb(209, 103, 77);
+    border-radius: 5px;
+    margin: 5px;
+
 }
 
 .logo {
@@ -57,12 +63,18 @@ a {
 
 .spotlight {
     text-align: center;
-    padding: 1em;
+    padding: 30px;
+    background-color: rgb(209, 103, 77);
+    border-radius: 5px;
+    margin: 5px;
 }
 
 .weather {
     text-align: center;
-    padding: 1em;
+    padding: 30px;
+    background-color: rgb(209, 103, 77);
+    border-radius: 5px;
+    margin: 5px;
 }
 /* id selector */
 
@@ -80,3 +92,18 @@ a {
 #hero-img {
     width: 100%;
 }
+
+#joinChamber {
+    grid-column: 3/4;
+    grid-row: 2/4;
+    background-color: rgb(47, 40, 33);
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+#joinChamber a {
+    color: rgb(255, 255, 255);
+}
+
