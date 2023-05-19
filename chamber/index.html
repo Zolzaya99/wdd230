@@ -9,7 +9,7 @@
     <meta property="og:image" content="https://unsplash.com/photos/mpLex62zVKQ">
     <meta property="og:url" content="https://zolzaya99.github.io/wdd230/">
     <title>Chamber Site</title>
-    <link rel="stylesheet" href="images/favicon.ico">
+    <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/normalize.css">
@@ -21,9 +21,11 @@
                 <img class="logo" src="images/logooo.png" alt="Chamber site">
             </a>
             <nav>
-                <a href="index.html">Home</a>
-                <a href="index.html">Page 1</a>
-                <a href="index.html">Page 2</a>
+                <button id="hamMenu"></button>
+                <ul class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Page 1</a></li>
+                    <li><a href="index.html">Page 2</a></li>
             </nav>
         </header>
         <div id="hero">
@@ -51,5 +53,6 @@
         <p>Last Modified: <span id="lastModified"></span></p>
     </footer>
     <script src="scripts/date.js"></script>
+    <script src="scripts/hamButton.js"></script>
 </body>
 </html>
