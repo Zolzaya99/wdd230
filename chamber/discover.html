@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Discover Chicago Chamber of Commerce">
+    <meta property="og:type" content="chamber-site">
+    <meta property="og:image" content="https://unsplash.com/photos/mpLex62zVKQ">
+    <meta property="og:url" content="https://zolzaya99.github.io/wdd230/">
+    <title>Chamber Site</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a class="logolink" href="index.html">
+                <img class="logo" src="images/logooo.png" alt="Chamber site">
+            </a>
+            <nav>
+                <button id="hamMenu"></button>
+                <ul class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="index.html">Page 2</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+        <div id="hero">
+            <div id="hero-box">
+                <img id="hero-img" src="images/op_hero.jpeg" alt="chicago">
+            </div>
+            <div id="joinChamber">
+                <a id="join" href="index.html" target="_blank" rel="noopener noreferrer">Join the Chamber</a>
+            </div>
+        </div>
+    <main>
+        <section class="two-column">
+            <section class="sidebar-content">
+                <section class="visitCount">
+                    <h1 id="visitheader"><span id="visits"></span></h1>
+                </section>
+                <section class="windycity">
+                    <h1 id="windycityheader">Windy City</h1>
+                    <p id="windycitypara">Chicago's downtown established in 1837 is a vibrant and bustling hub that showcases 
+                        the city's dynamic spirit. Nestled along the shores of Lake Michigan, downtown Chicago is renowned 
+                        for its iconic skyline adorned with magnificent skyscrapers. It is home to a myriad of cultural institutions, 
+                        including the Art Institute of Chicago and the Chicago Symphony Orchestra, making it a haven 
+                        for art and music enthusiasts. The famous Magnificent Mile offers a premier shopping experience, 
+                        while Millennium Park beckons with its stunning architecture and public art installations, most 
+                        notably the Cloud Gate sculpture, affectionately known as "The Bean." With its lively streets, 
+                        diverse culinary scene, and vibrant nightlife, Chicago's downtown is a captivating fusion of 
+                        history, culture, and modernity.</p>
+                </section>
+                <section class="food">
+                    <h1 id="foodheader">Chicago is a foodie destination</h1>
+                    <p id="foodpara">
+                        Chicago has solidified its reputation as a foodie destination, captivating the taste buds of both 
+                        locals and visitors alike. From its iconic deep-dish pizza to mouthwatering hot dogs, Chicago 
+                        embraces its signature dishes with gusto. Global cuisines find their place in Chicago too, with 
+                        a plethora of ethnic eateries serving up delectable dishes from around the world. Whether it's 
+                        indulals, Chicago's food scene continually satisfies even the most discerning palates, making it 
+                        an undeniable haven for food enthusiasts.
+                    </p>
+                </section>
+                <section class="theathers">
+                    <h1 id="theathersheader">Theatre</h1>
+                    <p id="theaterspara">Chicago boasts several famous theaters that have made a lasting impact on the city's cultural landscape. 
+                        The Chicago Theatre stands as an iconic symbol of entertainment in the city, with its dazzling marquee and grand 
+                        architecture hosting an array of Broadway shows and live performances. Steppenwolf Theatre Company has gained 
+                        international acclaim for its groundbreaking productions and commitment to pushing artistic boundaries. The 
+                        Goodman Theatre, founded in 1925, is a revered institution known for its exceptional productions and renowned 
+                        ensemble casts. The Oriental Theatre, with its opulent decor and historical significance, remains a beloved venue 
+                        for hosting blockbuster musicals and theatrical spectacles. These theaters, among many others, have helped shape 
+                        Chicago's vibrant theater scene and continue to attract both local and international talent, ensuring a rich and 
+                        diverse array of performances for audiences to enjoy.
+                    </p>
+                </section>
+            </section>
+            <section class="chicagoimgs">
+                <section id="chicago1">
+                    <img src="images/chicago1.webp" alt="chicago1" loading="lazy">
+                </section>
+                <section id="chicago5">
+                    <img src="images/chicago5.webp" alt="chicago5" loading="lazy">
+                </section>
+                <section id="chicago3">
+                    <img src="images/chicago3.webp" alt="chicago3" loading="lazy">
+                </section>
+                <section id="chicago2">
+                    <img src="images/chicago2.webp" alt="chicago2" loading="lazy">
+                </section>
+                <section id="chicago4">
+                    <img src="images/chicago4.webp" alt="chicago4" loading="lazy">
+                </section>
+                <section id="chicago6">
+                    <img src="images/chicago6.webp" alt="chicago6" loading="lazy">
+                </section>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <h2> &copy; <span id="copyRight"></span>Downtown Chicago Chamber of Commerce</h2>
+        <p>Zolzaya Oyunkhand | WDD 230</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/date.js"></script>
+    <script src="scripts/hamButton.js"></script>
+    <script src="scripts/localStorage.js"></script>
+</body>
+</html>

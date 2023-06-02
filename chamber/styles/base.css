@@ -10,6 +10,20 @@ header {
     line-height: 10px;
 }
 
+img:hover {
+    background-color: rgb(194, 194, 194);
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 15px 15px 20px #394a6a;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
 footer {
     background-color: rgb(140, 119, 101);
     padding: 2em;
@@ -59,6 +73,18 @@ a {
 }
 /* class selector */
 
+.chicagoimgs {
+    margin: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.chicagoimgs img {
+    justify-items: center;
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(30, 29, 29, 0.26), 0 6px 20px 0 rgba(19, 35, 49, 0.25);
+}
 .event {
     text-align: center;
     padding: 30px;
@@ -66,6 +92,15 @@ a {
     border-radius: 5px;
     margin: 5px;
 
+}
+
+.food {
+    margin: 1rem;
+    width: 70%;
+    background-color: rgb(226, 194, 174);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .logo {
@@ -96,12 +131,43 @@ a {
     width: 100px;
 }
 
+.sidebar-content {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
 .spotlight {
     text-align: center;
     padding: 30px;
     background-color: rgb(209, 103, 77);
     border-radius: 5px;
     margin: 5px;
+}
+
+.theathers {
+    margin: 2rem;
+    width: 70%;
+    background-color: rgb(231, 198, 227);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.visitCount {
+    margin: 1em;
+    width: 50%;
+    background-color: rgb(69, 83, 68);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.visitCount h1 {
+    color: #eee;
+    font-family: Comme Light 300;
+    font-size: 20px;
 }
 
 .weather {
@@ -111,8 +177,63 @@ a {
     border-radius: 5px;
     margin: 5px;
 }
+
+.windycity {
+    margin: 2rem;
+    width:70%;
+    background-color: rgb(198, 224, 239);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 /* id selector */
 
+#chicago1 {
+    text-align: center;
+    justify-items: center;
+}
+
+#chicago2 {
+    text-align: center;
+    justify-items: center;
+}
+
+#chicago3 {
+    text-align: center;
+    justify-items: center;
+}
+
+#chicago4 {
+    text-align: center;
+    justify-items: center;
+}
+
+#chicago5 {
+    text-align: center;
+    justify-items: center;
+}
+
+#chicago6 {
+    text-align: center;
+    justify-items: center;
+}
+
+#foodheader {
+    text-align: center;
+    display: grid;
+    text-align: center;
+    font-size: 30px;
+    font-family: Bruno Ace Regular 400;
+}
+
+#foodpara {
+    display: grid;
+    text-align: center;
+    text-align: center;
+    font-family: Encode Sans ExtraLight 200;
+    font-size: 17px;
+    padding: 15px
+}
 #hamMenu {
 	font-size: 1.5rem;
 	border: 1px solid rgba(0,0,0,.3);
@@ -161,3 +282,39 @@ a {
     color: rgb(255, 255, 255);
 }
 
+#theathersheader {
+    text-align: center;
+    display: grid;
+    text-align: center;
+    font-size: 30px;
+}
+
+#theatherspara {
+    display: grid;
+    text-align: center;
+    text-align: center;
+    font-family: Encode Sans ExtraLight 200;
+    font-size: 17px;
+    padding: 15px
+}
+
+#windycityheader {
+    text-align: center;
+    display: grid;
+    text-align: center;
+    font-size: 30px;
+    font-family: Bruno Ace Regular 400;
+}
+
+#windycityheader h1 {
+    text-align: center;
+}
+
+#windycitypara {
+    display: grid;
+    text-align: center;
+    text-align: center;
+    font-family: Encode Sans ExtraLight 200;
+    font-size: 17px;
+    padding: 15px
+}

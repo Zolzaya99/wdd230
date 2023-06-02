@@ -1,2 +1,15 @@
 @media screen and (min-width: 600px){
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+    .chicagoimgs {
+        grid-column: 2/3;
+    }
+    .sidebar-content {
+        grid-column: 1/2;
+    }
+    .two-column {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
