@@ -166,7 +166,7 @@ a {
 
 .visitCount h1 {
     color: #eee;
-    font-family: Comme Light 300;
+    font-family: "Comme";
     font-size: 20px;
 }
 
@@ -223,14 +223,14 @@ a {
     display: grid;
     text-align: center;
     font-size: 30px;
-    font-family: Bruno Ace Regular 400;
+    font-family: "Bruno Ace";
 }
 
 #foodpara {
     display: grid;
     text-align: center;
     text-align: center;
-    font-family: Encode Sans ExtraLight 200;
+    font-family: "Encode Sans";
     font-size: 17px;
     padding: 15px
 }
@@ -293,7 +293,7 @@ a {
     display: grid;
     text-align: center;
     text-align: center;
-    font-family: Encode Sans ExtraLight 200;
+    font-family: "Encode Sans";
     font-size: 17px;
     padding: 15px
 }
@@ -303,7 +303,7 @@ a {
     display: grid;
     text-align: center;
     font-size: 30px;
-    font-family: Bruno Ace Regular 400;
+    font-family: "Bruno Ace";
 }
 
 #windycityheader h1 {
@@ -314,7 +314,7 @@ a {
     display: grid;
     text-align: center;
     text-align: center;
-    font-family: Encode Sans ExtraLight 200;
+    font-family: "Encode Sans";
     font-size: 17px;
     padding: 15px
 }
