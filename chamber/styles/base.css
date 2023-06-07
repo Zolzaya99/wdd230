@@ -40,10 +40,9 @@ p {
     font-size: 1em;
 }
 
-nav {
-    display: flex;
+.nav {
+    display: block;
     justify-content: space-around;
-    text-align: center;
 }
 
 nav ul {

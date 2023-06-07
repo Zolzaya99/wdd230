@@ -2,8 +2,15 @@
     main {
         grid-template-columns: 1fr 1fr;
     }
+    
     .chicagoimgs {
         grid-column: 2/3;
+    }
+    nav li {
+		display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: center;
     }
     .sidebar-content {
         grid-column: 1/2;
@@ -11,5 +18,8 @@
     .two-column {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+    #hamMenu {
+        display: none;
     }
 }
