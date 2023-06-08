@@ -43,7 +43,36 @@
         <h2>San Diego Temple</h2>
     </div>
     <main>
-        
+        <form action="thankyou.html" method="get">
+            <label for="fname">
+                <input type="text" id="fname" name="fname" required></label>
+            <label for="lname">
+                <input type="text" id="lname" name="lname" required></label>
+            <label for="title">
+                <input type="text" id="title" name="title" pattern=""></label>
+            <label for="email">
+                <input type="email" id="email" name="email" placeholder="email@byui.edu" required></label>
+            <label for="phone">
+                <input type="tel" id="phone" name="phone" required></label>
+            <label for="businessname">
+                <input type="text" id="businessname" name="businessname" required></label>
+            <label for="businessname">
+                <input type="text" id="businessname" name="businessname" required></label>
+            <label class="member">
+                <input type="radio" name="membership" value="nonprofit"> NP Membership is for non profit organizations and there is no fee.</label>
+            <label class="member">
+                <input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+            <label class="member">
+                <input type="radio" name="membership" value="silver"> Silver Membership</label>
+            <label class="member">
+                <input type="radio" name="membership" value="gold"> Gold Membership</label>
+            <label for="busdescription">
+                <input type="textarea" id="busdescription" name="busdescription"></label>
+            <label for="timestamp">
+                <input type="hidden" id="timestamp" name="timestamp"></label>
+            <label for="submitBtn">
+                <input type="submit" id="submitBtn" value="Join Us" class="submitBtn"></label>
+        </form>
     </main>
     <iframe
         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d23766.391597198268!2d-87.64494626523434!3d41.8756719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1685395565946!5m2!1sen!2sus"
