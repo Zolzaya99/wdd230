@@ -139,6 +139,10 @@ p {
     align-items: center;
 }
 
+li a {
+    list-style: none;
+    text-decoration: none;
+}
 .open li a:hover {
     background-color: rgb(124, 97, 128);
     color: rgb(215, 215, 220);

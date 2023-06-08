@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
 </head>
 
 <body>
@@ -31,7 +32,7 @@
             <li><a href="index.html" title="HOME">HOME</a></li>
             <li><a href="chamber/index.html">CHAMBER</a></li>
             <li><a href="week01/chamber-site-plan.html">SITE PLAN</a></li>
-            <li><a href="form/form.html">FORM</a></li>
+            <li><a href="form.html">FORM</a></li>
         </ul>
     </nav>
     <h2>WDD 230: Web Frontend Development</h2>
@@ -43,43 +44,22 @@
         <h2>San Diego Temple</h2>
     </div>
     <main>
-        <section class="card">
-            <h3>Learning Activities</h3>
-            <ul class="lessonul">
-                <li>Lesson 1:
-                    <a href="week01/holygrail.html">Holy Grail | </a>
-                    <a href="week01/media-query.html">Media Query</a>
-                </li>
-                <li>Lesson 2:
-                    <a href="lesson2/design.html">Design | </a>
-                    <a href="https://codepen.io/Zolzaya99/pen/PoyQwda">Hamburger Button | </a>
-                    <a href="week02/bom.html">BoM</a>
-                </li>
-                <li>Lesson 3:
-                    <a href="chamber/index.html">Chamber | </a>
-                    <a href="lesson03/images/landcape.webp">WebP | </a>
-                    <a href="lesson03/lazyload.html">Lazyload | </a>
-                    <a href="lesson03/reponsive-images.html">Responsive Images | </a>
-                    <a href="lesson03/bom2.html">Local Storage</a>
-                </li>
-                <li>Lesson 4: 
-                    <a href="https://codepen.io/Zolzaya99/pen/vYVowqX">Pseudo Class | </a>
-                    <a href="lesson04/tablebuild.html">Table Build | </a></li>
-                    <a href="lesson04/images/IMG_3153.jpg">Combinators | </a>
-                    <a href="lesson04/form-start/index.html">HTML Forms </a>
-                <li>Lesson 5: <a href=""></a></li>
-                <li>Lesson 6: <a href=""></a></li>
-                <li>Lesson 7: <a href=""></a></li>
-            </ul>
-        </section>
-        <section class="weather">
-            <h3>Information</h3>
-            <div>
-                <h4>72°F Rexburg, ☀️ Sunny</h4>
-                <h4>🌬️ Wind chill 10 mph</h4>
-                <h4><span class="label">Visit count: </span><span class="visits"></span></h4>
-            </div>
-        </section>
+        <form action="record.html" method="get">
+            <h1>Chicago Chamber of Commerce Form</h1>
+            <label class="top" for="username">Username
+            <input type="text" id="username" name="username" placeholder="username" required></label>
+            <label class="top" for="password">Password
+            <input type="password" id="password" name="password" placeholder="enter at least eight characters" pattern="[A-z0-9]{8,}" title="At least eight characters long" required></label>
+            <label class="top" for="password2">Confirm Password
+            <input type="password" id="password2" name="password2" placeholder="re-enter your password" required></label>
+            <label class="top" for="email">Email Address
+            <input type="email" id="email" name="email" placeholder="email@byui.edu" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address" required></label>
+            <label class="range" for="range">Range
+            <input type="range" id="range" name="range" min="1" max="10" value="0" step="1"></label>
+            <div id="rangevalue"></div>
+            <label for="submitBtn">
+            <input type="submit" id="submitBtn" value="save my information" class="submitBtn"></label>
+       </form>
     </main>
     <iframe
         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d23766.391597198268!2d-87.64494626523434!3d41.8756719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1685395565946!5m2!1sen!2sus"
@@ -93,6 +73,7 @@
     <script src="scripts/darkMode.js"></script>
     <script src="scripts/hamburgerMenu.js"></script>
     <script src="scripts/localStorage.js"></script>
+    <script src="scripts/form_range.js"></script>
 </body>
 
 </html>
