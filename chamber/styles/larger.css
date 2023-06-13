@@ -8,9 +8,10 @@
     }
     nav li {
 		display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
         text-align: center;
+        list-style: none;
     }
     .sidebar-content {
         grid-column: 1/2;

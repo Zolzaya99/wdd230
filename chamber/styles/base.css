@@ -39,12 +39,6 @@ p {
     text-align: center;
     font-size: 1em;
 }
-
-.nav {
-    display: block;
-    justify-content: space-around;
-}
-
 nav ul {
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -101,6 +95,16 @@ a {
     padding: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.joinmsg {
+    text-align: center;
+    background-color: rgb(129, 186, 189);
+    padding: 1rem;
+    margin: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(30, 29, 29, 0.26), 0 6px 20px 0 rgba(19, 35, 49, 0.25);
+}
+
 
 .logo {
     width: 100%;
