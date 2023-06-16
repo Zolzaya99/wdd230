@@ -23,4 +23,8 @@
     #hamMenu {
         display: none;
     }
+
+    .memberMain {
+        flex-direction: row;
+    }
 }

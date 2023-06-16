@@ -41,37 +41,54 @@
         </div>
     </div>
     <main>
-        <form action="thankyou.html" method="get">
-            <label for="fname">
-                <input type="text" id="fname" name="fname" required></label>
-            <label for="lname">
-                <input type="text" id="lname" name="lname" required></label>
-            <label for="title">
-                <input type="text" id="title" name="title" pattern=""></label>
-            <label for="email">
-                <input type="email" id="email" name="email" placeholder="email@byui.edu" required></label>
-            <label for="phone">
-                <input type="tel" id="phone" name="phone" required></label>
-            <label for="businessname">
-                <input type="text" id="businessname" name="businessname" required></label>
-            <label for="businessname">
-                <input type="text" id="businessname" name="businessname" required></label>
-            <label class="member">
-                <input type="radio" name="membership" value="nonprofit">NP Membership is for non profit organizations
-                and there is no fee.</label>
-            <label class="member">
-                <input type="radio" name="membership" value="bronze"> Bronze Membership</label>
-            <label class="member">
-                <input type="radio" name="membership" value="silver"> Silver Membership</label>
-            <label class="member">
-                <input type="radio" name="membership" value="gold"> Gold Membership</label>
-            <label for="busdescription">
-                <input type="textarea" id="busdescription" name="busdescription"></label>
-            <label for="timestamp">
-                <input type="hidden" id="timestamp" name="timestamp"></label>
-            <label for="submitBtn">
-                <input type="submit" id="submitBtn" value="Join Us" class="submitBtn"></label>
-        </form>
+        <div class="memberMain">
+            <form action="thankyou.html" method="get">
+                <h1>Join Our Chamber</h1>
+                <label class="top" for="fname">First Name*
+                    <input type="text" id="fname" name="fname" required></label>
+                <label class="top" for="lname">Last Name*
+                    <input type="text" id="lname" name="lname" required></label>
+                <label class="top" for="title">Title/Position
+                    <input type="text" id="title" name="title" pattern="[a-zA-Z\s-]{7,}"></label>
+                <label class="top" for="email">Email Address*
+                    <input type="email" id="email" name="email" placeholder="Youremail@gmail.com" required></label>
+                <label class="top" for="phone">Phone* 
+                    <input type="tel" id="phone" name="phone" required></label>
+                <label class="top" for="businessname">Business/Organization Name*
+                    <input type="text" id="businessname" name="businessname" required></label>
+                <label class="top">Membership</label>
+                <label class="member">
+                    <input type="radio" name="membership" value="nonprofit"> NP Membership is for non profit organizations
+                    and there is no fee.</label>
+                <label class="member">
+                    <input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+                <label class="member">
+                    <input type="radio" name="membership" value="silver"> Silver Membership</label>
+                <label class="member">
+                    <input type="radio" name="membership" value="gold"> Gold Membership</label>
+                <label class="top">Business/Organization Description
+                    <input type="text" id="busdescription" name="busdescription"></label>
+                <label>
+                    <input type="hidden" name="timestamp" id="timestamp" value=""></label>
+                <label for="submitBtn">
+                    <input type="submit" id="submitBtn" value="Join Membership" class="submitBtn"></label>
+            </form>
+            <div class="membershipBenefits">
+                <h1>Open VIP Benefits for Members</h1>
+                <h2>Bronze Membership</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore animi saepe autem ab, 
+                    porro pariatur temporibus? Adipisci autem enim ut tenetur, officia minus corporis asperiores 
+                    laudantium quisquam fuga error ipsam?</p>
+                <h2>Silver Membership</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore animi saepe autem ab, 
+                    porro pariatur temporibus? Adipisci autem enim ut tenetur, officia minus corporis asperiores 
+                    laudantium quisquam fuga error ipsam?</p>
+                <h2>Gold Membership</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore animi saepe autem ab, 
+                    porro pariatur temporibus? Adipisci autem enim ut tenetur, officia minus corporis asperiores 
+                    laudantium quisquam fuga error ipsam?</p>
+            </div>
+        </div>
     </main>
     <footer>
         <h2> &copy; <span id="copyRight"></span>Downtown Chicago Chamber of Commerce</h2>
@@ -80,6 +97,7 @@
     </footer>
     <script src="scripts/date.js"></script>
     <script src="scripts/hamButton.js"></script>
+    <script src="scripts/timestamp.js"></script>
 </body>
 
 </html>
