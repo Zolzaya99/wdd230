@@ -1,0 +1,18 @@
+{
+    "familyName": "Wadsworth",
+    "moveinDate": "2023-05-20",
+    "numberInthefamily": 2,
+    "visitedByBishopric": true,
+    "familyMembers": [
+        {
+           "Name": "Zolzaya" ,
+           "Gender": "Female",
+           "Birthdate": "1999-05-27"
+        },
+        {
+            "Name": "Conner" ,
+           "Gender": "Male",
+           "Birthdate": "1997-06-14"
+        }
+    ]
+    }
