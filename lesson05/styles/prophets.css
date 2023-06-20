@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Montserrat:wght@300&display=swap');
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+
+}
+
+footer {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(25, 51, 25);
+    font-family: 'Montserrat';
+}
+
+h2 {
+    font-family: 'Kanit';
+}
+
+#cards section {
+    border: 1px solid rgb(40, 55, 33);
+    background-color: rgb(255, 234, 180);
+    padding: 30px;
+    width: 300px;
+    margin: 20px;
+}
+
+#cards img {
+    width: 90%
+
+}
