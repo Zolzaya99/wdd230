@@ -1,91 +1,94 @@
 {
     "weeks": [
-        {
-            "week": "Week1",
-            "links": [
-                {
-                    "url": "lesson01/holygrail.html",
-                    "title": "HolyGrail"
-                }, 
-                {
-                    "url": "lesson01/media-query.html",
-                    "title": "MediaQueries"
-                }
-            ],
-
-            "Week2": "Week2",
-            "links2": [
-                {
-                    "url": "lesson02/design.html",
-                    "title": "Design"
-                },
-                {
-                    "url": "https://codepen.io/Zolzaya99/pen/PoyQwda",
-                    "title": "HamburgerButton"
-                }, 
-                {
-                    "url": "lesson02/bom.html",
-                    "title": "BoM"
-                } 
-            ],
-
-            "week3": "week3",
-            "links3": [
-                {
-                    "url": "https://zolzaya99.github.io/wdd230/chamber/index.html",
-                    "title": "Chamber"
-                }, 
-                {
-                    "url": "https://zolzaya99.github.io/wdd230/lesson03/images/landcape.webp",
-                    "title": "WebP"
-                },
-                {
-                    "url": "lesson03/lazyload.html",
-                    "title": "LazyLoad"
-                },
-                {
-                    "url": "lesson03/responsive-images.html",
-                    "title": "Responsive"
-                }
-            ],
-
-            "week4": "week4",
-            "links4": [
-                {
-                    "url": "https://codepen.io/Zolzaya99/pen/vYVowqX",
-                    "title": "PseudoClass"
-                }, 
-                {
-                    "url": "lesson04/tablebuild.html",
-                    "title": "TableBuild"
-                },
-                {
-                    "url": "https://zolzaya99.github.io/wdd230/lesson04/images/IMG_3153.jpg",
-                    "title": "Combinators"
-                },
-                {
-                    "url": "lesson04/form-start/index.html",
-                    "title": "HTMLforms"
-                }
-            ],
-
-            "week5": "week5",
-            "links5": [
-                {
-                    "url": "https://codepen.io/Zolzaya99/pen/rNQxqeX",
-                    "title": "PseudoElement"
-                }, 
-                {
-                    "url": "lesson05/prophets.html",
-                    "title": "PropehtsFetchAPI"
-                },
-                {
-                    "url": "lesson05/weather.html",
-                    "title": "WeatherAPI"
-                }
-            ]
-
-        }
+      {
+        "lesson": "lesson 1",
+        "links": [
+          {
+            "url": "lesson01/holygrail.html",
+            "title": "HolyGrail"
+          },
+          {
+            "url": "lesson01/media-query.html",
+            "title": "MediaQueries"
+          }
+        ]
+      },
+      {
+        "lesson": "lesson 2",
+        "links": [
+          {
+            "url": "lesson02/design.html",
+            "title": "Design"
+          },
+          {
+            "url": "https://codepen.io/Zolzaya99/pen/PoyQwda",
+            "title": "HamburgerButton"
+          },
+          {
+            "url": "lesson02/bom.html",
+            "title": "BoM"
+          }
+        ]
+      },
+      {
+        "lesson": "lesson 3",
+        "links": [
+          {
+            "url": "https://zolzaya99.github.io/wdd230/chamber/index.html",
+            "title": "Chamber"
+          },
+          {
+            "url": "https://zolzaya99.github.io/wdd230/lesson03/images/landcape.webp",
+            "title": "WebP"
+          },
+          {
+            "url": "lesson03/lazyload.html",
+            "title": "LazyLoad"
+          },
+          {
+            "url": "lesson03/responsive-images.html",
+            "title": "Responsive"
+          }
+        ]
+      },
+      {
+        "lesson": "lesson 4",
+        "links": [
+          {
+            "url": "https://codepen.io/Zolzaya99/pen/vYVowqX",
+            "title": "PseudoClass"
+          },
+          {
+            "url": "lesson04/tablebuild.html",
+            "title": "TableBuild"
+          },
+          {
+            "url": "https://zolzaya99.github.io/wdd230/lesson04/images/IMG_3153.jpg",
+            "title": "Combinators"
+          },
+          {
+            "url": "lesson04/form-start/index.html",
+            "title": "HTMLforms"
+          }
+        ]
+      },
+      {
+        "lesson": "lesson 5",
+        "links": [
+          {
+            "url": "https://codepen.io/Zolzaya99/pen/rNQxqeX",
+            "title": "PseudoElement"
+          },
+          {
+            "url": "lesson05/prophets.html",
+            "title": "PropehtsFetchAPI"
+          },
+          {
+            "url": "lesson05/weather.html",
+            "title": "WeatherAPI"
+          }
+        ]
+      }
     ]
-}
-
+  }
+  
