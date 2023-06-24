@@ -94,11 +94,12 @@ p {
 }
 
 .card {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-items: center;
-    text-align: left;
+    text-align: center;
+}
+
+#lesson-responsive ul {
+    list-style: none;
+    text-decoration: none;
 }
 
 .hero img {
@@ -150,10 +151,6 @@ li a {
 }
 
 .weather {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-items: center;
     text-align: center;
 }
 
