@@ -1,7 +1,69 @@
-names
-addresses
-phone numbers
-website URLs
-image or icon file names
-membership level 
-other information you deem appropriate
+{
+    "members": [
+      {
+        "name": "Skydeck at Willis Tower",
+        "address": "233 South Wacker Dr Chicago, IL 60606",
+        "phone": "(312) 875-9447",
+        "website": "https://theskydeck.com/",
+        "membership": "level 4",
+        "image": "images/skydecklogo.png"
+      },
+      {
+        "name": "Chicago Bears FootbalL Club",
+        "address": "Halis Hall at Conway Park 1920 Football Drive Lake Forest, IL 60045-4829",
+        "phone": "((855) 254-5180",
+        "website": "https://www.chicagobears.com/",
+        "membership": "level 4",
+        "image": "images/chicagobears.png"
+      },
+      {
+        "name": "Giardanos Deep Dish Pizza",
+        "address": "130 E Randolph St Chicago IL 60601",
+        "phone": "(312) 616-1200",
+        "website": "https://giordanos.com/",
+        "membership": "level 4",
+        "image": "images/giordanos.jpeg"
+      },
+      {
+        "name": "Art Institute of Chicago",
+        "address": "111 South Michigan Avenue Chicago, IL 60603",
+        "phone": "(312) 443-3600",
+        "website":"https://www.artic.edu/" ,
+        "membership": "level 4", 
+        "image": "images/art_institute_of_chicago.jpeg"
+      },
+      {
+        "name": "Lincoln Park Zoo",
+        "address": "2400 N. Cannon Drive Chicago IL 60614",
+        "phone": "312-742-2000",
+        "website": "https://www.lpzoo.org/",
+        "membership": "level 4",
+        "image": "images/zoo.webp"
+      },
+      {
+        "name": "Centennial Wheel at Navy Pier",
+        "address": "Centennial Wheel, Chicago, IL 60611",
+        "phone": "(312) 595-7437",
+        "website": "https://navypier.org/plan-your-visit/buy-tickets/",
+        "membership": "level 4",
+        "image": "images/ferriswheel.jpeg"
+      },
+      {
+        "name": "University of Illinois Chicago",
+        "address": "1200 W Harrison St, Chicago, IL 60607",
+        "phone": "(312) 996-7000",
+        "website": "https://illinois.edu/",
+        "membership": "level 4",
+        "image": "images/uic.png"
+      }, 
+      {
+        "name": "Portillo's",
+        "address": "100 W Ontario St, Chicago, IL 60654",
+        "phone": "312-587-8910",
+        "website": "https://www.portillos.com/",
+        "membership": "level 4",
+        "image": "images/portillos_1.webp"
+      }
+    ]
+  }
+
