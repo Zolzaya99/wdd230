@@ -1,5 +1,5 @@
 const mybaseURL = "https://zolzaya99.github.io/wdd230/directory.html";
-const url = "https://zolzaya99.github.io/wdd230/data/members.json";
+const url = "https://zolzaya99.github.io/wdd230/data/member.json";
 
 async function getMemberData() {
     const response = await fetch(url);
