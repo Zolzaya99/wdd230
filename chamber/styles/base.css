@@ -427,3 +427,44 @@ main {
 #busdescription {
     height: 50px;
 }
+
+/* Directory CSS */
+
+#directory{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#directory p{
+    color: #0a1256;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+#directory h1, h2{
+    text-align: center;
+    color: rgb(4, 4, 4);
+}
+
+.cards section{
+    border: 1px solid #0a1256;
+    padding: 30px;
+    width: 300px;
+    margin: 20px;
+}
+
+.cards img{
+    width: 20%;
+    box-shadow: 5px 10px 8px 5px #888888;
+}
+
+#cards, #list{
+    color: #1d288d;
+    padding: 0 8px;
+    cursor: pointer;
+}
+

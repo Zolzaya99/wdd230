@@ -5,7 +5,7 @@
         "address": "233 South Wacker Dr Chicago, IL 60606",
         "phone": "(312) 875-9447",
         "website": "https://theskydeck.com/",
-        "membership": "level 4",
+        "membership": "Gold",
         "image": "images/skydecklogo.png"
       },
       {
@@ -13,7 +13,7 @@
         "address": "Halis Hall at Conway Park 1920 Football Drive Lake Forest, IL 60045-4829",
         "phone": "((855) 254-5180",
         "website": "https://www.chicagobears.com/",
-        "membership": "level 4",
+        "membership": "Bronze",
         "image": "images/chicagobears.png"
       },
       {
@@ -21,7 +21,7 @@
         "address": "130 E Randolph St Chicago IL 60601",
         "phone": "(312) 616-1200",
         "website": "https://giordanos.com/",
-        "membership": "level 4",
+        "membership": "Gold",
         "image": "images/giordanos.jpeg"
       },
       {
@@ -29,7 +29,7 @@
         "address": "111 South Michigan Avenue Chicago, IL 60603",
         "phone": "(312) 443-3600",
         "website":"https://www.artic.edu/" ,
-        "membership": "level 4", 
+        "membership": "Silver", 
         "image": "images/art_institute_of_chicago.jpeg"
       },
       {
@@ -37,7 +37,7 @@
         "address": "2400 N. Cannon Drive Chicago IL 60614",
         "phone": "312-742-2000",
         "website": "https://www.lpzoo.org/",
-        "membership": "level 4",
+        "membership": "Silver",
         "image": "images/zoo.webp"
       },
       {
@@ -45,7 +45,7 @@
         "address": "Centennial Wheel, Chicago, IL 60611",
         "phone": "(312) 595-7437",
         "website": "https://navypier.org/plan-your-visit/buy-tickets/",
-        "membership": "level 4",
+        "membership": "Bronze",
         "image": "images/ferriswheel.jpeg"
       },
       {
@@ -53,7 +53,7 @@
         "address": "1200 W Harrison St, Chicago, IL 60607",
         "phone": "(312) 996-7000",
         "website": "https://illinois.edu/",
-        "membership": "level 4",
+        "membership": "Gold",
         "image": "images/uic.png"
       }, 
       {
@@ -61,7 +61,7 @@
         "address": "100 W Ontario St, Chicago, IL 60654",
         "phone": "312-587-8910",
         "website": "https://www.portillos.com/",
-        "membership": "level 4",
+        "membership": "Silver",
         "image": "images/portillos_1.webp"
       }
     ]
