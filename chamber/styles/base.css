@@ -445,6 +445,13 @@ main {
     justify-content: center;
 }
 
+.member-card {
+    display: flex;
+    flex-direction: center;
+    justify-items: center;
+    align-content: center;
+}
+
 #directory h1, h2{
     text-align: center;
     color: rgb(4, 4, 4);

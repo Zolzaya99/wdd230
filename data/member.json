@@ -41,12 +41,12 @@
         "image": "images/zoo.webp"
       },
       {
-        "name": "Centennial Wheel at Navy Pier",
-        "address": "Centennial Wheel, Chicago, IL 60611",
-        "phone": "(312) 595-7437",
-        "website": "https://navypier.org/plan-your-visit/buy-tickets/",
+        "name": "Shedd Aquarium",
+        "address": "1200 S DuSable Lk Shr Dr, Chicago, IL 60605",
+        "phone": "(312) 939-2438",
+        "website": "https://www.sheddaquarium.org/",
         "membership": "Bronze",
-        "image": "images/ferriswheel.jpeg"
+        "image": "images/shedd_aquarium.jpeg"
       },
       {
         "name": "University of Illinois Chicago",
