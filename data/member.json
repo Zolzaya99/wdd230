@@ -14,7 +14,7 @@
         "phone": "((855) 254-5180",
         "website": "https://www.chicagobears.com/",
         "membership": "Bronze",
-        "image": "chamber/images/chicagobears.png"
+        "image": "images/chicagobears.png"
       },
       {
         "name": "Giardanos Deep Dish Pizza",
@@ -22,7 +22,7 @@
         "phone": "(312) 616-1200",
         "website": "https://giordanos.com/",
         "membership": "Gold",
-        "image": "chamber/images/giordanos.jpeg"
+        "image": "images/giordanos.jpeg"
       },
       {
         "name": "Art Institute of Chicago",
@@ -30,7 +30,7 @@
         "phone": "(312) 443-3600",
         "website":"https://www.artic.edu/" ,
         "membership": "Silver", 
-        "image": "chamber/images/art_institute_of_chicago.jpeg"
+        "image": "images/art_institute_of_chicago.jpeg"
       },
       {
         "name": "Lincoln Park Zoo",
@@ -38,7 +38,7 @@
         "phone": "312-742-2000",
         "website": "https://www.lpzoo.org/",
         "membership": "Silver",
-        "image": "chamber/images/zoo.webp"
+        "image": "images/zoo.webp"
       },
       {
         "name": "Shedd Aquarium",
@@ -46,7 +46,7 @@
         "phone": "(312) 939-2438",
         "website": "https://www.sheddaquarium.org/",
         "membership": "Bronze",
-        "image": "chamber/images/shedd_aquarium.jpeg"
+        "image": "images/shedd_aquarium.jpeg"
       },
       {
         "name": "University of Illinois Chicago",
@@ -54,7 +54,7 @@
         "phone": "(312) 996-7000",
         "website": "https://illinois.edu/",
         "membership": "Gold",
-        "image": "chamber/images/uic.png"
+        "image": "images/uic.png"
       }, 
       {
         "name": "Portillo's",
@@ -62,7 +62,7 @@
         "phone": "312-587-8910",
         "website": "https://www.portillos.com/",
         "membership": "Silver",
-        "image": "chamber/images/portillos_1.webp"
+        "image": "images/portillos_1.webp"
       }
     ]
   }
