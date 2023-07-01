@@ -16,7 +16,6 @@ async function getMemberData() {
         // Create elements to add to the div.cards element
         let card = document.createElement("div");
         card.classList.add("member-card");
-
         let h2 = document.createElement("h2");
         h2.classList.add("member-name");
 
@@ -53,6 +52,9 @@ async function getMemberData() {
         card.appendChild(image);
         card.appendChild(h2);
         card.appendChild(p);
+        card.appendChild(p2);
+        card.appendChild(p3);
+        card.appendChild(p4);
   
         cards.appendChild(card);
       }
