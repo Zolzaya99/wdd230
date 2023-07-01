@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Comme:wght@300&family=Encode+Sans:wght@100;200&display=swap');
+
 /* html selector */
 header {
     display: grid;
@@ -29,12 +31,18 @@ footer {
 h2 {
     text-align: center;
     font-size: 1em;
+    font-family: 'Bruno Ace';
+    font-size: 20px;
 }
 
 p {
     text-align: center;
     font-size: 1em;
+    font-family: 'Encode Sans';
+    font-size: 16px;
 }
+
+
 nav ul {
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -447,7 +455,7 @@ main {
 
 #cards img{
     width: 100%;
-    box-shadow: 5px 10px 5px #888888;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 0.5em;
 }
 
@@ -456,3 +464,32 @@ main {
     padding: 0 8px;
     cursor: pointer;
 } 
+
+.member-website {
+    font-family: 'Comme';
+    font-size: 16px;
+}
+
+.member-image:hover {
+    background-color: #c9c4c4;
+}
+
+.member-address {
+    font-family: 'Encode Sans';
+    font-size: 18px;
+}
+
+.member-name {
+    font-family: 'Bruno Ace';
+    font-size: 23px;
+}
+
+.link-style {
+    color: #7d2610;
+}
+
+.link-style:hover {
+    background-color: rgb(194, 194, 194);
+    border-radius: 5px;
+    padding: 10px;
+}

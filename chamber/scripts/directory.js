@@ -32,9 +32,11 @@ const displayMembers = (members) => {
     p3.classList.add("member-membership");
     p3.textContent = member.membership;
 
-    let p4 = document.createElement("p");
-    p4.classList.add("member-website");
-    p4.textContent = member.website;
+    let websiteLink = document.createElement("a");
+    websiteLink.setAttribute("href", member.website);
+    websiteLink.setAttribute("target", "_blank"); // Open the link in a new tab
+    websiteLink.textContent = "Visit Website";
+    websiteLink.classList.add("link-style"); 
 
     let image = document.createElement("img");
     image.classList.add("member-image");
@@ -44,7 +46,7 @@ const displayMembers = (members) => {
     card.appendChild(p);
     card.appendChild(p2);
     card.appendChild(p3);
-    card.appendChild(p4);
+    card.appendChild(websiteLink);
 
     cards.appendChild(card);
   });
