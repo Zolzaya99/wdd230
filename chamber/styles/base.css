@@ -435,15 +435,20 @@ main {
 #busdescription {
     height: 50px;
 }
-
 /* Directory CSS */
 
-#cards{
+/* #cards{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
-} 
+}  */
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 2rem;
+  }
 
 #cards div {
     border: 1px solid #48170e;
@@ -459,7 +464,7 @@ main {
     border-radius: 0.5em;
 }
 
-#cards, #list{
+#cards, #lists{
     color: #452c20;
     padding: 0 8px;
     cursor: pointer;
@@ -486,6 +491,8 @@ main {
 
 .link-style {
     color: #7d2610;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .link-style:hover {
@@ -493,3 +500,37 @@ main {
     border-radius: 5px;
     padding: 10px;
 }
+
+#cards {
+    display: grid;
+  }
+  
+#lists {
+display: none;
+}
+
+.link-wrapper {
+display: flex;
+justify-content: center;
+}
+
+.link-container {
+display: inline-block;
+}
+
+.link-center {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button-container {
+display: flex;
+justify-content: center;
+margin: 20px; /* Optional: Add some space below the buttons */
+}
+
+#grid, #list {
+    padding: 10px;
+}
+  

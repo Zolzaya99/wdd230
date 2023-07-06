@@ -5,6 +5,7 @@ async function getMemberData() {
   const response = await fetch(url);
   const data = await response.json();
   displayMembers(data.members);
+  displayList(data.members);
 }
 
 getMemberData();
@@ -34,9 +35,10 @@ const displayMembers = (members) => {
 
     let websiteLink = document.createElement("a");
     websiteLink.setAttribute("href", member.website);
-    websiteLink.setAttribute("target", "_blank"); // Open the link in a new tab
+    websiteLink.setAttribute("target", "_blank"); 
     websiteLink.textContent = "Visit Website";
-    websiteLink.classList.add("link-style"); 
+    websiteLink.classList.add("link-style");
+    websiteLink.classList.add("link-center"); // Apply the CSS class for centering
 
     let image = document.createElement("img");
     image.classList.add("member-image");
@@ -50,5 +52,69 @@ const displayMembers = (members) => {
 
     cards.appendChild(card);
   });
-  document.getElementById("cards");
 };
+
+const displayList = (members) => {
+  const lists = document.querySelector("#lists");
+
+  members.forEach((member) => {
+    let list = document.createElement("section");
+    // list.classList.add("member-card");
+
+    let h2 = document.createElement("h2");
+    h2.classList.add("membername");
+    h2.textContent = member.name;
+
+    let p = document.createElement("p");
+    p.classList.add("memberaddress");
+    p.textContent = member.address;
+
+    let p2 = document.createElement("p");
+    p2.classList.add("memberphone");
+    p2.textContent = member.phone;
+
+    let p3 = document.createElement("p");
+    p3.classList.add("membermembership");
+    p3.textContent = member.membership;
+
+    
+    let linkWrapper = document.createElement("div");
+    linkWrapper.classList.add("link-wrapper");
+
+    let linkContainer = document.createElement("div"); // Create a container for centering
+    linkContainer.classList.add("link-container");
+
+    let websiteLink = document.createElement("a");
+    websiteLink.setAttribute("href", member.website);
+    websiteLink.setAttribute("target", "_blank"); // Open the link in a new tab
+    websiteLink.textContent = "Visit Website";
+    websiteLink.classList.add("link-style");
+
+    linkContainer.appendChild(websiteLink);
+    linkWrapper.appendChild(linkContainer);
+
+    list.appendChild(h2);
+    list.appendChild(p);
+    list.appendChild(p2);
+    list.appendChild(p3);
+    list.appendChild(linkWrapper);
+    lists.appendChild(list);
+  });
+};
+
+    const gridButton = document.querySelector("#grid");
+    const listButton = document.querySelector("#list");
+    const cards = document.querySelector("#cards");
+    const lists = document.querySelector("#lists");
+
+    gridButton.addEventListener("click", () => {
+      cards.style.display = "grid";
+      lists.style.display = "none";
+    });
+
+    listButton.addEventListener("click", () => {
+      cards.style.display = "none";
+      lists.style.display = "block";
+    });
+
+      
