@@ -43,18 +43,32 @@
             <h2>Current Event</h2>
         </section>
         <section class="weather">
-            <h2>Weather</h2>
+            <div id="weatherstyle">
+                <h2>Weather</h2>
+                <h4><span id="current-temp"></span></h4>
+                    <figure>
+                        <img id="weather-icon" src="" alt="">
+                        <figcaption></figcaption>
+                    </figure>
+            </div>
         </section>
+        <section class="forecast">
+            <h2>Forecast</h2>
+            <div id="forecast"></div>
+            <img id="weather-icon" src="" alt="">
+                <figcaption></figcaption>
+          </section>
         <section class="spotlight">
             <h2>Spotlights</h2>
         </section>
     </main>
     <footer>
-        <h2> &copy; <span id="copyRight"></span>Downtown Chicago Chamber of Commerce</h2>
-        <p>Zolzaya Oyunkhand | WDD 230</p>
+        <h2> &copy; <span id="copyRight"></span> Downtown Chicago Chamber of Commerce</h2>
+        <p>Zolzaya Wadsworth| WDD 230</p>
         <p>Last Modified: <span id="lastModified"></span></p>
     </footer>
     <script src="scripts/date.js"></script>
     <script src="scripts/hamButton.js"></script>
+    <script src="scripts/weather.js" ></script>
 </body>
 </html>
