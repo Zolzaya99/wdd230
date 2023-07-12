@@ -29,23 +29,23 @@
         <ul class="nav">
             <li><a href="index.html" title="HOME">HOME</a></li>
             <li><a href="chamber/index.html">CHAMBER</a></li>
-            <li><a href="week01/chamber-site-plan.html">SITE PLAN</a></li>
+            <li><a href="lesson01/chamber-site-plan.html">SITE PLAN</a></li>
             <li><a href="form.html">FORM</a></li>
         </ul>
     </nav>
     <h2>WDD 230: Web Frontend Development</h2>
-    <picture class="hero">
-        <source srcset="images/mobile-sandiegotemple.webp" media="(max-width: 400px)">
-        <img src="images/large-sandiegotemple.webp" alt="My favorite temple" width="960" height="601" loading="lazy">
-        <h2 class="heromsg">San Diego Temple</h2>
-    </picture>
+    <div class="hero">
+        <picture>
+            <h2 class="heromsg">San Diego Temple</h2>
+            <source srcset="images/mobile-sandiegotemple.webp" media="(max-width: 400px)">
+            <img src="images/large-sandiegotemple.webp" alt="My favorite temple" width="960" height="601" loading="lazy">
+        </picture>
+    </div>
     <main>
         <section class="card">
             <h3>Learning Activities</h3>
-            <section onscroll="scrolldown">
-                <div id="lesson-responsive"></div>
-                <div id="scroll-down" class="up">↓ Scroll Down ↓</div>
-            </section>
+            <div id="lesson-responsive"></div>
+
             <!-- <ul class="lessonul">
                 <li>Lesson 1:
                     <a href="week01/holygrail.html">Holy Grail | </a>
@@ -91,7 +91,8 @@
     <iframe
         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d23766.391597198268!2d-87.64494626523434!3d41.8756719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1685395565946!5m2!1sen!2sus"
         width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
     <footer>
         <p> &copy;<span id="copyrightYear"></span> | Zolzaya Wadsworth | Mongolia</p>
         <p>Last Modified: <span id="lastModified"></span></p>

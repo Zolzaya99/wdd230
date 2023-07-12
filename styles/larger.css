@@ -1,19 +1,46 @@
 @media screen and (min-width: 600px){
-    main {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin: 0 auto;
+    body {
+        background-color: rgb(211, 222, 219);
     }
-    h3 {
-        border-radius: 0;
-        font-size: 2rem;
+
+    header, nav, .hero, h2, footer, main {
+        width: 70%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: rgb(127, 155, 125);
+    }
+
+    header, footer {
+        border-radius: 5px;
     }
 
     iframe {
-        width: 100%;
+        display: grid;
+        width: 73%;
+        margin: 0 auto;
+        border-radius: 1rem;
+        box-shadow: 2px 2px 5px rgb(83, 78, 78);
+        border-radius: 10px;
     }
+
+    main {
+        width: 70;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } 
+
+    .card, .weather{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    #lesson-responsive li a {
+        color: black;
+        text-align: center;
+    }
+
     .card h3 {
-    padding-top: 3px;
+        padding-top: 3px;
     }
 
     p {
@@ -22,6 +49,7 @@
     #hamMenu {
         display: none;
     }
+
     nav li {
         display: flex;
         flex-direction: column;
@@ -30,10 +58,30 @@
         font-size: 2rem;
     }
     #darkMode {
-        position: absolute;
-        top: 1rem;
-        left: 1rem;
+        margin-left: 50%;
         font-size: 4rem;
         cursor: pointer;
+    }
+
+    .heromsg {
+        width: 25%;
+        box-shadow: 2px 2px 5px rgb(83, 78, 78);
+        border-radius: 10px;
+        font-size: 3rem;
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 10px;
+        background-color: rgb(47, 49, 48);
+        border-radius: 6px;
+}
+    .nav a {
+        color: white;
     }
 }

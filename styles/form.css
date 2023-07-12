@@ -69,3 +69,7 @@ main {
     justify-content: center;
     align-items: center;
 }
+
+.heromsg {
+    display: none;
+}

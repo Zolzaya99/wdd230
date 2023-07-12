@@ -4,7 +4,7 @@
 header {
     display: grid;
     grid-template-columns: 80px auto;
-    background-color: rgb(140, 119, 101, 0.4);
+    background-color: rgba(47, 40, 33, 0.3);
     line-height: 10px;
 }
 
@@ -23,7 +23,7 @@ main {
 }
 
 footer {
-    background-color: rgb(140, 119, 101);
+    background-color: rgb(47, 40, 33);
     padding: 2em;
     color: rgb(255, 255, 255);
 }
@@ -282,11 +282,12 @@ a {
 #joinChamber {
     grid-column: 3/4;
     grid-row: 2/4;
-    background-color: rgb(47, 40, 33);
+    /* background-color: rgb(47, 40, 33); */
+    background-color: #7d2610;
     padding: 15px;
     border-radius: 5px;
     text-align: center;
-    width: 100%;
+    max-width: 80%;
 }
 
 #joinChamber a {
@@ -424,7 +425,9 @@ main {
 }
 
 .membershipBenefits p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    word-spacing: 0.1rem;
+    line-height: 2rem;
 }
 
 .memberMain {
