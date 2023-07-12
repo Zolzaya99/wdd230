@@ -121,12 +121,6 @@ p {
     font-family: Concert, sans-serif;
     font-size: 1.5rem;
 }
-
-/* .lessonul {
-    background-color: rgb(146, 173, 146);
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgb(163, 152, 152);
-} */
 .open li {
     display: block;
     width: 100%;

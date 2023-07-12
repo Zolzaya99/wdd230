@@ -44,22 +44,15 @@ p {
 
 
 nav ul {
+    display: flex;
+    flex-direction: column;
     color: rgb(255, 255, 255);
     text-decoration: none;
     text-align: center;
     font-family: Quicksand, sans-serif;
     text-transform: uppercase;
-    /* line-height: 5; */
+    line-height: 5;
     font-size: 1em;
-    display: flex;
-    flex-direction: flow;
-    gap: 10em;
-}
-
-nav {
-    display: flex;
-    justify-self: center;
-    align-items: center;
 }
 
 nav li {
@@ -597,9 +590,27 @@ margin: 20px; /* Optional: Add some space below the buttons */
 
 #spotlight-container {
     background-color: rgb(112, 153, 102);
-    padding: 10px;
+    padding: 3em;
     max-width: 50%;
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(30, 29, 29, 0.26), 0 6px 20px 0 rgba(19, 35, 49, 0.25);
+}
+
+/* banner css */
+
+.banner {
+    background-color: lightblue;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.banner .close-icon {
+    cursor: pointer;
+    font-size: 18px;
+    color: red;
 }

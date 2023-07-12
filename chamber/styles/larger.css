@@ -6,13 +6,13 @@
     .chicagoimgs {
         grid-column: 2/3;
     }
+
     nav li {
 		display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        text-align: center;
-        list-style: none;
+        flex-direction: columns;
+        gap: 20em;
     }
+
     .sidebar-content {
         grid-column: 1/2;
     }
@@ -27,4 +27,13 @@
     .memberMain {
         flex-direction: row;
     }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+    
 }
