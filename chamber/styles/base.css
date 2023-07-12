@@ -237,13 +237,15 @@ a {
     font-family: "Bruno Ace";
 }
 
-#foodpara {
+#foodpara, #theaterspara, #windycitypara {
     display: grid;
     text-align: center;
     text-align: center;
     font-family: "Encode Sans";
     font-size: 17px;
-    padding: 15px
+    padding: 20px;
+    line-height: 2rem;
+    word-spacing: 0.2rem;
 }
 #hamMenu {
 	font-size: 1.5rem;
@@ -301,15 +303,6 @@ a {
     font-size: 30px;
 }
 
-#theatherspara {
-    display: grid;
-    text-align: center;
-    text-align: center;
-    font-family: "Encode Sans";
-    font-size: 17px;
-    padding: 15px
-}
-
 #windycityheader {
     text-align: center;
     display: grid;
@@ -320,15 +313,6 @@ a {
 
 #windycityheader h1 {
     text-align: center;
-}
-
-#windycitypara {
-    display: grid;
-    text-align: center;
-    text-align: center;
-    font-family: "Encode Sans";
-    font-size: 17px;
-    padding: 15px
 }
 
 /* form css */
