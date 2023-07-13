@@ -543,32 +543,29 @@ margin: 20px; /* Optional: Add some space below the buttons */
 
 .forecast {
     text-align: center;
-    padding: 30px;
+    padding: 10px;
     background-color: rgb(209, 103, 77);
     border-radius: 5px;
     margin: 5px;
 }
 
+figure {
+    margin: 0 auto;
+}
 
 #weatherstyle {
-    /* flex-basis: calc(100% / 6); */
     background-color: rgb(134, 173, 195);
     border: 1px rgb(161, 146, 146);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 0.5em;
-    width: 15%;
+    width: 30%;
     text-align: center;
     margin: 0 auto;
     padding: 1em;
 }
 
 .resized-image {
-    width: 300px; 
-    height: auto; 
-  }
-
-
-.resized-image {
+    width: 100%;
     pointer-events: none;
     border: 1px rgb(161, 146, 146);
     border-radius: 10px;
