@@ -20,6 +20,7 @@ const displayLinks = (weeks) => {
     lesson.links.forEach((link) => {
       let subListItem = document.createElement('li');
       let subAnchor = document.createElement('a');
+      subAnchor.classList.add('sublink'); 
       subAnchor.setAttribute('href', link.url);
       subAnchor.innerHTML = link.title;
       subListItem.appendChild(subAnchor);
