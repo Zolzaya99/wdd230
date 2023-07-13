@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", () => {
         const closeIcon = banner.querySelector(".close-icon");
         const bannerParent = bannerText.parentNode;
 
-        // Insert the banner and close icon right after the bannerText paragraph
         bannerParent.insertBefore(banner, bannerText.nextSibling);
 
         closeIcon.addEventListener("click", () => {

@@ -9,17 +9,13 @@ fetch(member_json)
       return member.membership === 'Silver' || member.membership === 'Gold';
     });
 
-    // Select a random member
     var randomIndex = Math.floor(Math.random() * qualifiedMembers.length);
     var member = qualifiedMembers[randomIndex];
 
-    // Get the container element
     var container = document.getElementById("spotlight-container");
 
-    // Clear the container
     container.innerHTML = '';
 
-    // Display the member's information
     var div = document.createElement("div");
     div.innerHTML = `
       <h3>Name: ${member.name}</h3>
@@ -30,6 +26,5 @@ fetch(member_json)
       <img src="${member.image}" alt="${member.name}" class="resized-image">
     `;
 
-    // Append the div to the container
     container.appendChild(div);
   });

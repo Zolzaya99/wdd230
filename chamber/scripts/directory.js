@@ -15,7 +15,6 @@ const displayMembers = (members) => {
 
   members.forEach((member) => {
     let card = document.createElement("div");
-    // card.classList.add("member-card");
 
     let h2 = document.createElement("h2");
     h2.classList.add("member-name");
@@ -38,7 +37,7 @@ const displayMembers = (members) => {
     websiteLink.setAttribute("target", "_blank"); 
     websiteLink.textContent = "Visit Website";
     websiteLink.classList.add("link-style");
-    websiteLink.classList.add("link-center"); // Apply the CSS class for centering
+    websiteLink.classList.add("link-center");
 
     let image = document.createElement("img");
     image.classList.add("member-image");
@@ -59,7 +58,6 @@ const displayList = (members) => {
 
   members.forEach((member) => {
     let list = document.createElement("section");
-    // list.classList.add("member-card");
 
     let h2 = document.createElement("h2");
     h2.classList.add("membername");
@@ -81,12 +79,12 @@ const displayList = (members) => {
     let linkWrapper = document.createElement("div");
     linkWrapper.classList.add("link-wrapper");
 
-    let linkContainer = document.createElement("div"); // Create a container for centering
+    let linkContainer = document.createElement("div"); 
     linkContainer.classList.add("link-container");
 
     let websiteLink = document.createElement("a");
     websiteLink.setAttribute("href", member.website);
-    websiteLink.setAttribute("target", "_blank"); // Open the link in a new tab
+    websiteLink.setAttribute("target", "_blank"); 
     websiteLink.textContent = "Visit Website";
     websiteLink.classList.add("link-style");
 
