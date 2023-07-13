@@ -84,4 +84,9 @@
     .nav a {
         color: white;
     }
+
+    #bannerText {
+        margin: 0 auto;
+    }
 }
+

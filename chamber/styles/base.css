@@ -98,7 +98,7 @@ a {
     width: 70%;
     background-color: rgb(226, 194, 174);
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -162,7 +162,7 @@ a {
     width: 70%;
     background-color: rgb(231, 198, 227);
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -194,7 +194,8 @@ a {
     width:70%;
     background-color: rgb(198, 224, 239);
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
+    justify-content: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /* id selector */
@@ -242,10 +243,10 @@ a {
     text-align: center;
     text-align: center;
     font-family: "Encode Sans";
-    font-size: 17px;
-    padding: 20px;
-    line-height: 2rem;
-    word-spacing: 0.2rem;
+    font-size: 13px;
+    padding: 15px;
+    line-height: 1.5rem;
+    word-spacing: 0.1rem;
 }
 #hamMenu {
 	font-size: 1.5rem;
@@ -511,7 +512,7 @@ display: inline-block;
 .button-container {
 display: flex;
 justify-content: center;
-margin: 20px; /* Optional: Add some space below the buttons */
+margin: 20px;
 }
 
 #grid, #list {
@@ -600,5 +601,11 @@ figure {
 }
 
 #bannerText {
+    width: 50%;
+    margin: 0 auto;
     color: white;
+    background-color: rgba(177, 154, 147, 0.7);
+    padding: 1.5em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(30, 29, 29, 0.26), 0 6px 20px 0 rgba(19, 35, 49, 0.25);
 }
