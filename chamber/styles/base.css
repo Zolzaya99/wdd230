@@ -51,8 +51,15 @@ nav ul {
     text-align: center;
     font-family: Quicksand, sans-serif;
     text-transform: uppercase;
-    line-height: 5;
+    line-height: 5rem;
     font-size: 1em;
+}
+
+li:hover {
+    color: #e6dada;
+    background-color: #272e27;
+    border-radius: 1rem;
+    width: 10%;
 }
 
 nav li {
@@ -65,6 +72,14 @@ li a {
     list-style: none;
     color: #2e2d2d;
 }
+
+.nav li a:hover {
+    color: #e6dada;
+    background-color: #272e27;
+    border-radius: 1rem;
+    width: 10%; 
+}
+
 
 a {
     list-style: none;
@@ -122,22 +137,10 @@ a {
 
 .open li {
     display: block;
-    width: 100%;
+    width: 75%;
     text-align: center;
     justify-content: center;
     align-items: center;
-}
-.open li a {
-    display: block;
-    justify-content: center;
-    align-items: center;
-}
-
-.open li a:hover {
-    background-color: rgb(161, 83, 69);
-    color: rgb(215, 215, 220);
-    border-radius: 5px;
-    width: 100px;
 }
 
 .sidebar-content {
@@ -585,20 +588,29 @@ figure {
 /* banner css */
 
 .banner {
-    background-color: lightblue;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+    display: none;
+    background-color: #f2f2f2;
+    padding: 20px;
     text-align: center;
-}
-
-.banner .close-icon {
+    position: relative; 
+  }
+  
+  .closeButton {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
     cursor: pointer;
-    font-size: 18px;
-    color: red;
+    margin-top: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px; 
 }
+  
 
 #bannerText {
     width: 50%;
@@ -609,3 +621,24 @@ figure {
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(30, 29, 29, 0.26), 0 6px 20px 0 rgba(19, 35, 49, 0.25);
 }
+
+/* .banner {
+    display: none;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .closeButton {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+   */

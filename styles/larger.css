@@ -7,7 +7,7 @@
         width: 70%;
         margin: 0 auto;
         padding: 20px;
-        background-color: rgb(127, 155, 125);
+        background-color: rgb(158, 185, 156);
     }
 
     header, footer {
@@ -24,7 +24,7 @@
     }
 
     main {
-        width: 70;
+        width: 70%;
         display: grid;
         grid-template-columns: 1fr 1fr;
     } 

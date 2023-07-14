@@ -83,6 +83,10 @@ li a {
     color: #2e2d2d;
 }
 
+.nav.open {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
 p {
     text-align: center;
     color: rgb(46, 45, 45);
