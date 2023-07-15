@@ -21,7 +21,7 @@ fetch(member_json)
       <h3>Name: ${member.name}</h3>
       <p>Address: ${member.address}</p>
       <p>Phone: ${member.phone}</p>
-      <p>Website: <a href="${member.website}" target="_blank">${member.website}</a></p>
+      <p>Website: <a href="${member.website}" target="_blank">Click to visit</a></p>
       <p>Membership: ${member.membership}</p>
       <img src="${member.image}" alt="${member.name}" class="resized-image">
     `;

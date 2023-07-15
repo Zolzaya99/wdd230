@@ -38,5 +38,10 @@
     .nav a{
         color: white;
     }
+
+    .weatherandforecast {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     
 }

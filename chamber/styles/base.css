@@ -4,7 +4,7 @@
 header {
     display: grid;
     grid-template-columns: 80px auto;
-    background-color: rgba(47, 40, 33, 0.3);
+    background-color: rgba(23, 20, 16, 0.7);
     line-height: 10px;
 }
 
@@ -491,6 +491,7 @@ main {
 
 #cards {
     display: grid;
+    justify-items: center;
   }
   
 #lists {
@@ -524,7 +525,10 @@ margin: 20px;
   
 #forecast {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 1rem;
+    margin: 0 auto;
+    justify-content: center;
 }
 
 .forecast-item div {
@@ -585,60 +589,59 @@ figure {
     box-shadow: 0 4px 8px 0 rgba(30, 29, 29, 0.26), 0 6px 20px 0 rgba(19, 35, 49, 0.25);
 }
 
-/* banner css */
-
-.banner {
-    display: none;
-    background-color: #f2f2f2;
-    padding: 20px;
-    text-align: center;
-    position: relative; 
-  }
-  
-  .closeButton {
-    background-color: #ddd;
-    border: none;
-    color: black;
-    padding: 10px 20px;
-    text-align: center;
+#spotlight-container a {
+    list-style: none;
     text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 10px;
-    position: absolute;
-    top: 10px;
-    right: 10px; 
-}
-  
-
-#bannerText {
-    width: 50%;
-    margin: 0 auto;
-    color: white;
-    background-color: rgba(177, 154, 147, 0.7);
-    padding: 1.5em;
+    color: #020202;
+    padding: .5rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(30, 29, 29, 0.26), 0 6px 20px 0 rgba(19, 35, 49, 0.25);
 }
 
-/* .banner {
-    display: none;
-    background-color: #f2f2f2;
-    padding: 20px;
-    text-align: center;
-  }
+
+#spotlight-container a:hover {
+    background-color: #262624;
+    color: #ddd9d9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(30, 29, 29, 0.26), 0 6px 20px 0 rgba(19, 35, 49, 0.25);
+}
+
+/* banner css */
   
-  .closeButton {
-    background-color: #ddd;
+#closeBtn {
+    background-color: #ccc;
     border: none;
-    color: black;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+    padding: 5px 10px;
     cursor: pointer;
-    margin-top: 10px;
-  }
-   */
+    margin-top: 1rem;  
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+  
+#closeBtn:hover {
+    background-color: #c2c1bf;
+}
+
+.event p {
+    background-color: rgb(237, 186, 125);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.5em;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+#rudyramen {
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+#rudyramen a {
+    margin-top: 5px;
+}

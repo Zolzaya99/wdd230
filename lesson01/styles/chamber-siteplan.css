@@ -45,7 +45,7 @@ h3 {
     text-align: center;
     font-family: 'Amatic SC', sans-serif;
     font-size: 13px;
-    color: rgb(180, 187, 193);
+    color: rgb(0, 0, 0);
 }
 
 p {
@@ -87,7 +87,7 @@ p {
 }
 
 #maincontent {
-    background-color: rgb(103, 120, 131);
+    background-color: rgb(129, 152, 165);
     width: 70%;
     margin: 0 auto;
     padding: 20px;

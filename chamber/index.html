@@ -37,29 +37,34 @@
                 <a id="join" href="join.html" target="_blank" rel="noopener noreferrer">Join the Chamber</a>
             </div>
         </div>
+        <div id="bannerContainer"></div>
         <section class="event">
-            <h2>Current Event</h2>
-            <p id="bannerText">Attend the Chamber of Commerce Meet and Greet on Wednesday at 7:00 p.m.</p>
-        </section>
+            <h2>Events</h2>
+            <p>Grand opening - 🍜  Rudy's Ramen, Friday at 10:00 a.m. Rudy's Ramen
+                is the best in town so make sure to come and enjoy!</p>
+            <a id="rudyramen" href="https://www.rudysramen.com/" target="_blank" rel="noopener noreferrer">Visit</a>
+        </section>          
     </div>
     <main>
-        <section class="weather">
-            <h2>Weather</h2>
-            <div id="weatherstyle">
-                <h3>Chicago IL</h3>
-                <h4><span id="current-temp"></span></h4>
-                    <figure>
-                        <img id="weather-icon" src="" alt="">
-                        <figcaption></figcaption>
-                    </figure>
-            </div>
+        <section class="weatherandforecast">
+            <section class="weather">
+                <h2>Weather</h2>
+                <div id="weatherstyle">
+                    <h3>Chicago IL</h3>
+                    <h4><span id="current-temp"></span></h4>
+                        <figure>
+                            <img id="weather-icon" src="" alt="">
+                            <figcaption></figcaption>
+                        </figure>
+                </div>
+            </section>
+            <section class="forecast">
+                <h2>Forecast</h2>
+                <div id="forecast"></div>
+                <img id="weather-icon" src="" alt="">
+                    <figcaption></figcaption>
+            </section>
         </section>
-        <section class="forecast">
-            <h2>Forecast</h2>
-            <div id="forecast"></div>
-            <img id="weather-icon" src="" alt="">
-                <figcaption></figcaption>
-          </section>
         <section class="spotlight">
             <h2>Spotlights</h2>
             <div id="spotlight-container"></div>
@@ -74,6 +79,6 @@
     <script src="scripts/hamButton.js"></script>
     <script src="scripts/weather.js" ></script>
     <script src="scripts/spotlight.js"></script>
-    <script src="scripts/banner.js" ></script>
+    <script src="scripts/banner.js"></script>
 </body>
 </html>

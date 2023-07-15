@@ -218,3 +218,17 @@ li a {
     border-radius: 10px;
     justify-items: center;
 }
+
+/* record styling */
+
+#record h1 {
+    font-size: 25px;
+    text-align: center;
+    color: rgb(25, 52, 43);
+}
+
+#record p {
+    font-size: 18px;
+    text-align: center;
+    color: rgb(7, 19, 15);
+}
