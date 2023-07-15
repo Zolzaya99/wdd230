@@ -131,3 +131,23 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+/* wirefram styling */
+
+.wireframehome {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    margin: 0 auto;
+}
+#wireframe1 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#wireframe2 {
+    margin: 0 auto;
+    width: 50%;
+    justify-items: center;
+    text-align: center;
+}
