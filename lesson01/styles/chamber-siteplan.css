@@ -95,19 +95,19 @@ p {
 }
 
 #prim {
-    color: #735A4C;
+    color: #D1674D
 }
 
 #secondary {
-    color: white;
+    color: #2F2821;
 }
 
 #firstaccent {
-    color: #40352C;
+    color: #C6DBCC;
 }
 
 #secondaccent {
-    color: #8C7765;
+    color: #455344;
 }
 
 #titlefont {
@@ -137,8 +137,9 @@ p {
 .wireframehome {
     display: flex;
     flex-direction: row;
-    justify-items: center;
-    margin: 0 auto;
+    justify-items: center;    
+    gap: 0.4rem;
+
 }
 #wireframe1 {
     width: 50%;
