@@ -22,7 +22,7 @@
         "phone": "(312) 616-1200",
         "website": "https://giordanos.com/",
         "membership": "Gold",
-        "image": "images/giordanos.jpeg"
+        "image": "images/giordanos.jpg"
       },
       {
         "name": "Art Institute of Chicago",
@@ -30,7 +30,7 @@
         "phone": "(312) 443-3600",
         "website":"https://www.artic.edu/" ,
         "membership": "Silver", 
-        "image": "images/art_institute_of_chicago.jpeg"
+        "image": "images/art_institute_of_chicago.jpg"
       },
       {
         "name": "Lincoln Park Zoo",
@@ -46,7 +46,7 @@
         "phone": "(312) 939-2438",
         "website": "https://www.sheddaquarium.org/",
         "membership": "Bronze",
-        "image": "images/shedd_aquarium.jpeg"
+        "image": "images/shedd_aquarium.jpg"
       },
       {
         "name": "University of Illinois Chicago",
