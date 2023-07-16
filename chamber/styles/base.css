@@ -449,7 +449,8 @@ main {
     background-color: #fae6d4;
 }
 
-#cards img{
+#cards img {
+    pointer-events: none;
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 0.5em;
@@ -549,7 +550,7 @@ margin: 20px;
 }
 
 #weather-icon, .member-image, .forecast-item{
-    pointer-events: none;
+    /* pointer-events: none; */
 }
 
 .forecast {
@@ -577,7 +578,7 @@ figure {
 
 .resized-image {
     width: 100%;
-    pointer-events: none;
+    /* pointer-events: none; */
     border: 1px rgb(161, 146, 146);
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(30, 29, 29, 0.26), 0 6px 20px 0 rgba(19, 35, 49, 0.25);
