@@ -458,7 +458,6 @@ main {
 #cards, #lists{
     color: #452c20;
     padding: 0 8px;
-    cursor: pointer;
 } 
 
 .member-website {
