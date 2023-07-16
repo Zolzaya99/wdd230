@@ -8,12 +8,12 @@ chaptersArray.forEach(chapter => {
   });
 
 button.addEventListener("click", ( )=>{
-    if (input.value != '') {  // make sure the input is not empty
-        displayList(input.value); // call the function that outputs the submitted chapter
-        chaptersArray.push(input.value);  // add the chapter to the array
-        setChapterList(); // update the localStorage with the new array
-        input.value = ""; // clear the input
-        input.focus(); // set the focus back to the input
+    if (input.value != '') { 
+        displayList(input.value); 
+        chaptersArray.push(input.value);  
+        setChapterList(); 
+        input.value = ""; 
+        input.focus(); 
     }
     });
 
@@ -45,7 +45,7 @@ function getChapterList() {
 }
 
 function deleteChapter(chapter) {
-    chapter = chapter.slice(0, chapter.length - 1); // this slices off the last character
+    chapter = chapter.slice(0, chapter.length - 1);
     chaptersArray = chaptersArray.filter((item) => item !== chapter);
     setChapterList();
 }
